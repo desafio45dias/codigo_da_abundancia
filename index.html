@@ -154,15 +154,23 @@ src="https://www.facebook.com/tr?id=960223149609821&ev=PageView&noscript=1"
 </h2>				</div>
 				<div class="elementor-element elementor-element-a599b30 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-presto_video" data-id="a599b30" data-element_type="widget" data-widget_type="presto_video.default">
     <div class="elementor-widget-container">
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-            <iframe 
-                src="https://www.youtube.com/embed/mA39gkX2yAs?controls=1&rel=0&playsinline=1&modestbranding=1&autoplay=0" 
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen 
-                title="Suma por 45 dias">
-            </iframe>
-        </div>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<style>
+    .plyr { --plyr-color-main: #ff0000; border-radius: 0px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); width: 100%; }
+</style>
+<div class="plyr__video-embed" id="player">
+    <iframe
+        src="https://www.youtube.com/embed/mA39gkX2yAs?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+        allowfullscreen allowtransparency allow="autoplay"
+    ></iframe>
+</div>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+<script>
+    const player = new Plyr('#player', {
+        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+        youtube: { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1 }
+    });
+</script>
     </div>
 </div>
 				<div class="elementor-element elementor-element-c32fc8f elementor-align-justify elementor-mobile-align-justify elementor-widget__width-initial animated-fast elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-button" data-id="c32fc8f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="button.default">
