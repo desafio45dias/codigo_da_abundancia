@@ -1,832 +1,517 @@
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
-			<title>45 dias: Código da Abundância</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name='robots' content='max-image-preview:large' />
-<title>45 dias: Código da Abundância</title>
-<link rel="alternate" type="application/rss+xml" title="Feed para 45 dias: Código da Abundância &raquo;" href="https://desafio45dias.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Feed de comentários para 45 dias: Código da Abundância &raquo;" href="https://desafio45dias.com/comments/feed/" />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://desafio45dias.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdesafio45dias.com%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://desafio45dias.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdesafio45dias.com%2F&#038;format=xml" />
-<style id='wp-img-auto-sizes-contain-inline-css'>
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-</style>
+	<title>Desafio 45 Dias: O Código da Abundância | Método Oficial</title>
+    <meta name="description" content="Um guia prático de 45 dias para reorganizar sua vida financeira, emocional e mental. Saia do automático e ative seu potencial máximo por apenas R$ 29,00.">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name='robots' content='index, follow, max-image-preview:large' />
+    
+    <!-- CSS Originals Preserved for Layout Integrity -->
+    <link rel='stylesheet' id='twentytwentyfive-style-css' href='https://desafio45dias.com/wp-content/themes/twentytwentyfive/style.css?ver=1.2' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.33.4' media='all' />
+    <link rel='stylesheet' id='elementor-post-6-css' href='https://desafio45dias.com/wp-content/uploads/elementor/css/post-6.css?ver=1765638041' media='all' />
+    <link rel='stylesheet' id='widget-image-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.33.4' media='all' />
+    <link rel='stylesheet' id='widget-heading-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.33.4' media='all' />
+    <link rel='stylesheet' id='e-animation-grow-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.33.4' media='all' />
+    <link rel='stylesheet' id='e-animation-bounceIn-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/animations/styles/bounceIn.min.css?ver=3.33.4' media='all' />
+    <link rel='stylesheet' id='swiper-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+    <link rel='stylesheet' id='elementor-post-8-css' href='https://desafio45dias.com/wp-content/uploads/elementor/css/post-8.css?ver=1766161023' media='all' />
+    
+    <!-- Scripts -->
+    <script src="https://desafio45dias.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 
-<style id='wp-emoji-styles-inline-css'>
+    <style>
+        /* Custom Styles for Conversion */
+        .highlight-text { color: #ffffff; font-weight: 700; }
+        .cta-button-pulse {
+            animation: pulse-animation 2s infinite;
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+        }
+        @keyframes pulse-animation {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+        }
+        body { font-family: 'Manrope', sans-serif; background-color: #000; color: #e0e0e0; }
+        h2 { line-height: 1.3 !important; }
+    </style>
+</head>
 
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-/*# sourceURL=wp-emoji-styles-inline-css */
-</style>
-<style id='wp-block-library-inline-css'>
-:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
-/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
-</style>
-<style id='global-styles-inline-css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #FFFFFF;--wp--preset--color--contrast: #111111;--wp--preset--color--accent-1: #FFEE58;--wp--preset--color--accent-2: #F6CFF4;--wp--preset--color--accent-3: #503AA8;--wp--preset--color--accent-4: #686868;--wp--preset--color--accent-5: #FBFAF3;--wp--preset--color--accent-6: color-mix(in srgb, currentColor 20%, transparent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 0.875rem;--wp--preset--font-size--medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.196), 1.125rem);--wp--preset--font-size--large: clamp(1.125rem, 1.125rem + ((1vw - 0.2rem) * 0.392), 1.375rem);--wp--preset--font-size--x-large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.392), 2rem);--wp--preset--font-size--xx-large: clamp(2.15rem, 2.15rem + ((1vw - 0.2rem) * 1.333), 3rem);--wp--preset--font-family--manrope: Manrope, sans-serif;--wp--preset--font-family--fira-code: "Fira Code", monospace;--wp--preset--spacing--20: 10px;--wp--preset--spacing--30: 20px;--wp--preset--spacing--40: 30px;--wp--preset--spacing--50: clamp(30px, 5vw, 50px);--wp--preset--spacing--60: clamp(30px, 7vw, 70px);--wp--preset--spacing--70: clamp(50px, 7vw, 90px);--wp--preset--spacing--80: clamp(70px, 10vw, 140px);--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 645px;--wp--style--global--wide-size: 1340px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.2rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.2rem; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.2rem;}:root :where(.is-layout-grid){gap: 1.2rem;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--base);color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--manrope);font-size: var(--wp--preset--font-size--large);font-weight: 300;letter-spacing: -0.1px;line-height: 1.4;--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: var(--wp--preset--spacing--50);--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: var(--wp--preset--spacing--50);}a:where(:not(.wp-element-button)){color: currentColor;text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}h1, h2, h3, h4, h5, h6{font-weight: 400;letter-spacing: -0.1px;line-height: 1.125;}h1{font-size: var(--wp--preset--font-size--xx-large);}h2{font-size: var(--wp--preset--font-size--x-large);}h3{font-size: var(--wp--preset--font-size--large);}h4{font-size: var(--wp--preset--font-size--medium);}h5{font-size: var(--wp--preset--font-size--small);letter-spacing: 0.5px;}h6{font-size: var(--wp--preset--font-size--small);font-weight: 700;letter-spacing: 1.4px;text-transform: uppercase;}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--contrast);border-width: 0;color: var(--wp--preset--color--base);font-family: inherit;font-size: var(--wp--preset--font-size--medium);font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: 1rem;padding-right: 2.25rem;padding-bottom: 1rem;padding-left: 2.25rem;text-decoration: none;text-transform: inherit;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent);border-color: transparent;color: var(--wp--preset--color--base);}:root :where(.wp-element-button:focus, .wp-block-button__link:focus){outline-color: var(--wp--preset--color--accent-4);outline-offset: 2px;}:root :where(.wp-element-caption, .wp-block-audio figcaption, .wp-block-embed figcaption, .wp-block-gallery figcaption, .wp-block-image figcaption, .wp-block-table figcaption, .wp-block-video figcaption){font-size: var(--wp--preset--font-size--small);line-height: 1.4;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-accent-1-color{color: var(--wp--preset--color--accent-1) !important;}.has-accent-2-color{color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-color{color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-color{color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-color{color: var(--wp--preset--color--accent-5) !important;}.has-accent-6-color{color: var(--wp--preset--color--accent-6) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-accent-1-background-color{background-color: var(--wp--preset--color--accent-1) !important;}.has-accent-2-background-color{background-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-background-color{background-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-background-color{background-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-background-color{background-color: var(--wp--preset--color--accent-5) !important;}.has-accent-6-background-color{background-color: var(--wp--preset--color--accent-6) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-accent-1-border-color{border-color: var(--wp--preset--color--accent-1) !important;}.has-accent-2-border-color{border-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-border-color{border-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-border-color{border-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-border-color{border-color: var(--wp--preset--color--accent-5) !important;}.has-accent-6-border-color{border-color: var(--wp--preset--color--accent-6) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-manrope-font-family{font-family: var(--wp--preset--font-family--manrope) !important;}.has-fira-code-font-family{font-family: var(--wp--preset--font-family--fira-code) !important;}
-/*# sourceURL=global-styles-inline-css */
-</style>
-<style id='wp-block-template-skip-link-inline-css'>
+<body class="home wp-singular page-template page-template-elementor_canvas page page-id-8 elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-8">
+    
+<div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
+    
+    <!-- HERO SECTION -->
+    <div class="elementor-element elementor-element-15a745ac e-flex e-con-boxed e-con e-parent" data-id="15a745ac" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-5edf8109 e-con-full e-flex e-con e-child" data-id="5edf8109" data-element_type="container">
+                
+                <!-- Pixel Code (Mantido) -->
+                <div class="elementor-element elementor-element-5b61b897 elementor-widget elementor-widget-html">
+                    <script>
+                    !function(f,b,e,v,n,t,s)
+                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                    fbq('init', '960223149609821');
+                    fbq('track', 'PageView');
+                    </script>
+                    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=960223149609821&ev=PageView&noscript=1" /></noscript>
+                </div>
 
-		.skip-link.screen-reader-text {
-			border: 0;
-			clip-path: inset(50%);
-			height: 1px;
-			margin: -1px;
-			overflow: hidden;
-			padding: 0;
-			position: absolute !important;
-			width: 1px;
-			word-wrap: normal !important;
-		}
+                <!-- Logo/Image -->
+                <div class="elementor-element elementor-element-4506dae3 elementor-widget elementor-widget-image">
+                    <img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39.png" class="attachment-full size-full" alt="Código da Abundância Logo" />
+                </div>
 
-		.skip-link.screen-reader-text:focus {
-			background-color: #eee;
-			clip-path: none;
-			color: #444;
-			display: block;
-			font-size: 1em;
-			height: auto;
-			left: 5px;
-			line-height: normal;
-			padding: 15px 23px 14px;
-			text-decoration: none;
-			top: 5px;
-			width: auto;
-			z-index: 100000;
-		}
-/*# sourceURL=wp-block-template-skip-link-inline-css */
-</style>
-<link rel='stylesheet' id='twentytwentyfive-style-css' href='https://desafio45dias.com/wp-content/themes/twentytwentyfive/style.css?ver=1.2' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='elementor-post-6-css' href='https://desafio45dias.com/wp-content/uploads/elementor/css/post-6.css?ver=1765638041' media='all' />
-<link rel='stylesheet' id='widget-image-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='widget-heading-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='e-animation-grow-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='e-animation-bounceIn-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/animations/styles/bounceIn.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='swiper-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
-<link rel='stylesheet' id='e-swiper-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='widget-image-carousel-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='widget-icon-list-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='widget-accordion-css' href='https://desafio45dias.com/wp-content/plugins/elementor/assets/css/widget-accordion.min.css?ver=3.33.4' media='all' />
-<link rel='stylesheet' id='elementor-post-8-css' href='https://desafio45dias.com/wp-content/uploads/elementor/css/post-8.css?ver=1766161023' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://desafio45dias.com/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1752168392' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://desafio45dias.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1752168410' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-inter-css' href='https://desafio45dias.com/wp-content/uploads/elementor/google-fonts/css/inter.css?ver=1752169457' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-montserrat-css' href='https://desafio45dias.com/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1752169482' media='all' />
-<script src="https://desafio45dias.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script src="https://desafio45dias.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<link rel="https://api.w.org/" href="https://desafio45dias.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://desafio45dias.com/wp-json/wp/v2/pages/8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://desafio45dias.com/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.9" />
-<link rel="canonical" href="https://desafio45dias.com/" />
-<link rel='shortlink' href='https://desafio45dias.com/' />
-<meta name="generator" content="Elementor 3.33.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-			<style>
-				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
-				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
-					background-image: none !important;
-				}
-				@media screen and (max-height: 1024px) {
-					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
-					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
-						background-image: none !important;
-					}
-				}
-				@media screen and (max-height: 640px) {
-					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
-					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
-						background-image: none !important;
-					}
-				}
-			</style>
-			<style class='wp-fonts-local'>
-@font-face{font-family:Manrope;font-style:normal;font-weight:200 800;font-display:fallback;src:url('https://desafio45dias.com/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2') format('woff2');}
-@font-face{font-family:"Fira Code";font-style:normal;font-weight:300 700;font-display:fallback;src:url('https://desafio45dias.com/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2') format('woff2');}
-</style>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
-<body class="home wp-singular page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive wp-theme-twentytwentyfive elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-8">
-			<div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
-				<div class="elementor-element elementor-element-15a745ac e-flex e-con-boxed e-con e-parent" data-id="15a745ac" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-5edf8109 e-con-full e-flex e-con e-child" data-id="5edf8109" data-element_type="container">
-				<div class="elementor-element elementor-element-5b61b897 elementor-widget elementor-widget-html" data-id="5b61b897" data-element_type="widget" data-widget_type="html.default">
-					<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '960223149609821');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=960223149609821&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->				</div>
-				<div class="elementor-element elementor-element-4506dae3 elementor-widget elementor-widget-image" data-id="4506dae3" data-element_type="widget" data-widget_type="image.default">
-															<img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39.png" class="attachment-full size-full wp-image-11" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39-768x768.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-				<div class="elementor-element elementor-element-5bc5d85e elementor-widget elementor-widget-heading" data-id="5bc5d85e" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">45 DIAS — CÓDIGO DA ABUNDÂNCIA</h2>				</div>
-				<div class="elementor-element elementor-element-7215dda5 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7215dda5" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Tem algo dentro de você que sabe que essa vida que tá vivendo...
-<span style="color: #FFFFFF"> não é tudo.
-</span> </h2>				</div>
-				<div class="elementor-element elementor-element-35d5a44d elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="35d5a44d" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Você acorda, trabalha, corre atrás, tenta manter a mente no lugar… <span style="color: #ffffff"> mas ainda assim sente que algo tá faltando. <span style="color: #a8a8a8"> A culpa não é sua, <span style="color: #ffffff"> você só nunca teve um mapa. </span> 
+                <!-- Headline -->
+                <div class="elementor-element elementor-element-5bc5d85e elementor-widget elementor-widget-heading">
+                    <h1 class="elementor-heading-title elementor-size-default" style="text-align: center; color: #fff; font-weight: 800; font-size: 28px; margin-bottom: 10px;">45 DIAS — O MÉTODO DA VIRADA</h1>
+                </div>
 
+                <!-- Subheadline -->
+                <div class="elementor-element elementor-element-7215dda5 elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Tem algo dentro de você gritando que essa vida que você leva... <span class="highlight-text">não é tudo o que você merece.</span></h2>
+                </div>
 
-</h2>				</div>
-				<div class="elementor-element elementor-element-a599b30 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-presto_video" data-id="a599b30" data-element_type="widget" data-widget_type="presto_video.default">
-    <div class="elementor-widget-container">
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-<style>
-    .plyr { --plyr-color-main: #ff0000; border-radius: 0px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); width: 100%; }
-</style>
-<div class="plyr__video-embed" id="player">
-    <iframe
-        src="https://www.youtube.com/embed/mA39gkX2yAs?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-        allowfullscreen allowtransparency allow="autoplay"
-    ></iframe>
-</div>
-<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-<script>
-    const player = new Plyr('#player', {
-        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
-        youtube: { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1 }
-    });
-</script>
+                <!-- Agitation -->
+                <div class="elementor-element elementor-element-35d5a44d elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Você acorda, corre, trabalha e deita a cabeça no travesseiro sentindo o vazio. <span class="highlight-text">Isso não é culpa sua.</span> Você só estava tentando vencer o jogo sem ter o mapa. <span class="highlight-text" style="color:#00d084;">Até agora.</span></h2>
+                </div>
+
+                <!-- VSL (Video Sales Letter) -->
+                <div class="elementor-element elementor-element-a599b30 elementor-widget elementor-widget-presto_video">
+                    <div class="elementor-widget-container">
+                        <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+                        <style>.plyr { --plyr-color-main: #ff0000; border-radius: 10px; box-shadow: 0 10px 30px rgba(122,0,223,0.3); width: 100%; }</style>
+                        <div class="plyr__video-embed" id="player">
+                            <iframe src="https://www.youtube.com/embed/mA39gkX2yAs?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1" allowfullscreen allowtransparency allow="autoplay"></iframe>
+                        </div>
+                        <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+                        <script>const player = new Plyr('#player', { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'], youtube: { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1 } });</script>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="elementor-element elementor-element-c32fc8f elementor-align-justify elementor-widget elementor-widget-button">
+                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow cta-button-pulse" href="#comprar" style="background-color: #00d084; color: #000; font-weight: 800; border-radius: 50px;">
+                        <span class="elementor-button-content-wrapper">
+                            <span class="elementor-button-text">QUERO ATIVAR O CÓDIGO AGORA!</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- PROBLEM AWARENESS SECTION -->
+    <div class="elementor-element elementor-element-10ea1662 e-flex e-con-boxed e-con e-parent" data-id="10ea1662" data-element_type="container">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-7a6f3cae e-con-full e-flex e-con e-child" data-id="7a6f3cae" data-element_type="container">
+                <div class="elementor-element elementor-element-6e6ab491 elementor-widget elementor-widget-text-editor">
+                    <p style="text-align: center; font-size: 18px;">Você já tentou criar hábitos. Já tentou mudar a rotina. Já prometeu na virada do ano que "agora vai".</p>
+                    <p style="text-align: center; font-size: 20px; font-weight: bold; color: #fff;">Mas o ciclo sempre se repete:</p>
+                </div>
+                
+                <!-- Images kept as they are likely stylized text graphics -->
+                <div class="elementor-element elementor-element-23701e31 elementor-widget elementor-widget-image">
+                    <img decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-3.png" class="attachment-full size-full" alt="Ciclo da frustração" />
+                </div>
+                <div class="elementor-element elementor-element-6de2d88a elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-4.png" class="attachment-full size-full" alt="Desmotivação" />
+                </div>
+                <div class="elementor-element elementor-element-719d7326 elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-5.png" class="attachment-full size-full" alt="Falta de foco" />
+                </div>
+                 <div class="elementor-element elementor-element-46de2997 elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-6.png" class="attachment-full size-full" alt="Cansaço mental" />
+                </div>
+                 <div class="elementor-element elementor-element-7cd8cce1 elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-7.png" class="attachment-full size-full" alt="Sobrecarga" />
+                </div>
+
+                <div class="elementor-element elementor-element-3423b421 elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">E lá no fundo… a sensação terrível de que o tempo está passando e você <span class="highlight-text">ainda não está vivendo a vida que prometeu pra si mesmo.</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AGITATION CONTINUED -->
+    <div class="elementor-element elementor-element-23fc3a44 e-flex e-con-boxed e-con e-parent" data-id="23fc3a44" data-element_type="container">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-2bf086fc elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Ninguém vê. Mas você sente. <br><span style="font-size: 0.8em; color: #a8a8a8;">Deslize para ver se reconhece esses sinais:</span></h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCROLLING IMAGES (Keep structure, implies relatability) -->
+    <div class="elementor-element elementor-element-361ded3e e-flex e-con-boxed e-con e-parent" data-id="361ded3e" data-element_type="container">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-1a27ad5f e-con-full e-flex e-con e-child">
+                <div class="elementor-element elementor-element-26d35eaa elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1.jpg" alt="Sintoma 1" />
+                </div>
+            </div>
+             <div class="elementor-element elementor-element-3e0264de e-con-full e-flex e-con e-child">
+                <div class="elementor-element elementor-element-27dce94f elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1.jpg" alt="Sintoma 2" />
+                </div>
+            </div>
+             <div class="elementor-element elementor-element-7e4ac745 e-con-full e-flex e-con e-child">
+                <div class="elementor-element elementor-element-55894ad0 elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1.jpg" alt="Sintoma 3" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PIVOT TO SOLUTION -->
+    <div class="elementor-element elementor-element-15988217 e-flex e-con-boxed e-con e-parent">
+        <div class="elementor-element elementor-element-6b1853c6 e-con-full e-flex e-con e-child">
+            <div class="elementor-element elementor-element-62099916 elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">A pergunta que ecoa às 3 da manhã: <span class="highlight-text">"Será que minha vida vai ser só isso?"</span></h2>
+            </div>
+            <div class="elementor-element elementor-element-1a56a1dd elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">A resposta é: <span style="color: #ff0000; font-weight: bold;">NÃO!</span> Você só precisa do <span class="highlight-text">SISTEMA</span> certo.</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHAT IS THE PRODUCT -->
+    <div class="elementor-element elementor-element-28204fd7 e-con-full e-flex e-con e-parent" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-element elementor-element-7096b735 e-con-full e-flex e-con e-child">
+            <div class="elementor-element elementor-element-71ee516f elementor-widget elementor-widget-image">
+                <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-scaled.png" class="attachment-full size-full" alt="Capa do Livro Digital" />
+            </div>
+        </div>
+        <div class="elementor-element elementor-element-44964a33 e-con-full e-flex e-con e-child">
+            <div class="elementor-element elementor-element-722287f1 elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default" style="color: #00d084;">O QUE É O CÓDIGO DA ABUNDÂNCIA?</h2>
+            </div>
+            <div class="elementor-element elementor-element-6a8a2116 elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default">Não é autoajuda barata. É um <span class="highlight-text">DESAFIO GUIADO DE 45 DIAS</span> desenhado para quebrar seus padrões limitantes e instalar um novo "sistema operacional" na sua mente.</h2>
+            </div>
+            <div class="elementor-element elementor-element-4f4c01e3 elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default">Missões diárias, práticas e diretas para blindar as 5 áreas vitais da sua vida:</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- THE 5 PILLARS (Enhanced Descriptions) -->
+    <div class="elementor-element elementor-element-32e12725 e-flex e-con-boxed e-con e-parent">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-729e6569 e-con-full e-flex e-con e-child">
+                
+                <!-- Pillar 1 -->
+                <div class="elementor-element elementor-element-35675015 e-con-full e-flex e-con e-child">
+                    <div class="elementor-element elementor-element-7172e577 elementor-widget elementor-widget-image">
+                        <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-1024x1024.png" class="attachment-large size-large" alt="Ícone Financeiro" />
+                    </div>
+                    <div class="elementor-element elementor-element-2c043d0b elementor-widget elementor-widget-heading">
+                        <h3 class="elementor-heading-title" style="color:#fff;">1. Organização Financeira</h3>
+                    </div>
+                    <div class="elementor-element elementor-element-443553c elementor-widget elementor-widget-text-editor">
+                        <p>Pare de ver o dinheiro escorrer pelos dedos. Aprenda a gerir, organizar e preparar o terreno para a multiplicação.</p>
+                    </div>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="elementor-element elementor-element-4723394e e-con-full e-flex e-con e-child">
+                    <div class="elementor-element elementor-element-427f90c2 elementor-widget elementor-widget-image">
+                        <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-1024x1024.png" class="attachment-large size-large" alt="Ícone Mental" />
+                    </div>
+                    <div class="elementor-element elementor-element-53057513 elementor-widget elementor-widget-heading">
+                        <h3 class="elementor-heading-title" style="color:#fff;">2. Blindagem Mental</h3>
+                    </div>
+                    <div class="elementor-element elementor-element-3c1c0610 elementor-widget elementor-widget-text-editor">
+                        <p>Elimine a névoa mental e a procrastinação. Desenvolva o foco laser de quem realiza em 1 dia o que outros levam 1 mês.</p>
+                    </div>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="elementor-element elementor-element-5da94173 e-con-full e-flex e-con e-child">
+                    <div class="elementor-element elementor-element-44fe686d elementor-widget elementor-widget-image">
+                        <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-1024x1024.png" class="attachment-large size-large" alt="Ícone Emocional" />
+                    </div>
+                    <div class="elementor-element elementor-element-77e3822f elementor-widget elementor-widget-heading">
+                        <h3 class="elementor-heading-title" style="color:#fff;">3. Inteligência Emocional</h3>
+                    </div>
+                    <div class="elementor-element elementor-element-5f4a4881 elementor-widget elementor-widget-text-editor">
+                        <p>Domine a ansiedade e o estresse. Deixe de ser refém das circunstâncias e passe a controlar suas reações.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pillars 4 & 5 -->
+            <div class="elementor-element elementor-element-3480437d e-con-full e-flex e-con e-child">
+                <div class="elementor-element elementor-element-726390bd e-con-full e-flex e-con e-child">
+                     <div class="elementor-element elementor-element-3359a447 elementor-widget elementor-widget-image">
+                        <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-1024x1024.png" class="attachment-large size-large" alt="Ícone Profissional" />
+                    </div>
+                    <div class="elementor-element elementor-element-1d2b117 elementor-widget elementor-widget-heading">
+                        <h3 class="elementor-heading-title" style="color:#fff;">4. Posicionamento Profissional</h3>
+                    </div>
+                    <div class="elementor-element elementor-element-1865cc21 elementor-widget elementor-widget-text-editor">
+                        <p>Pare de ser invisível. Aprenda a se posicionar com autoridade e construir valor real na sua carreira.</p>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-30b9ac57 e-con-full e-flex e-con e-child">
+                     <div class="elementor-element elementor-element-50bba066 elementor-widget elementor-widget-image">
+                        <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-1024x1024.png" class="attachment-large size-large" alt="Ícone Espiritual" />
+                    </div>
+                    <div class="elementor-element elementor-element-486f7a6e elementor-widget elementor-widget-heading">
+                        <h3 class="elementor-heading-title" style="color:#fff;">5. Conexão e Propósito</h3>
+                    </div>
+                    <div class="elementor-element elementor-element-113d94e0 elementor-widget elementor-widget-text-editor">
+                        <p>Reencontre o sentido. Uma vida sem propósito é apenas sobrevivência. Vamos mudar isso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOW BARRIER TO ENTRY -->
+    <div class="elementor-element elementor-element-28ec6834 e-flex e-con-boxed e-con e-parent">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-b53870a e-con-full e-flex e-con e-child">
+                <div class="elementor-element elementor-element-2617c077 elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Sem horas de teoria chata. Apenas <span class="highlight-text" style="background: #7a00df; padding: 2px 8px; border-radius: 4px;">15 a 20 minutos por dia.</span></h2>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-38986f1b elementor-align-justify elementor-widget elementor-widget-button">
+                <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow cta-button-pulse" href="#comprar" style="background-color: #00d084; color: #000; font-weight: 800; border-radius: 50px;">
+                    <span class="elementor-button-content-wrapper">
+                        <span class="elementor-button-text">QUERO COMEÇAR MEU DESAFIO!</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SOCIAL PROOF / RESULTS -->
+    <div class="elementor-element elementor-element-914a94 e-flex e-con-boxed e-con e-parent" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-78a8561b e-con-full e-flex e-con e-child">
+                <div class="elementor-element elementor-element-2e245f71 elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">"Mas isso funciona mesmo?"</h2>
+                </div>
+                <div class="elementor-element elementor-element-1233a1cd elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Veja o que quem já destravou o código tem a dizer:</h2>
+                </div>
+                <!-- Carousel of Proof -->
+                <div class="elementor-element elementor-element-751342a5 elementor-widget elementor-widget-image-carousel">
+                     <div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+                        <div class="elementor-image-carousel swiper-wrapper">
+                            <div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7117.jpg" alt="Depoimento 1" /></figure></div>
+                            <div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7112.jpg" alt="Depoimento 2" /></figure></div>
+                            <div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7115.jpg" alt="Depoimento 3" /></figure></div>
+                            <div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7110.jpg" alt="Depoimento 4" /></figure></div>
+                        </div>
+                        <div class="elementor-swiper-button elementor-swiper-button-prev"><i class="eicon-chevron-left" aria-hidden="true"></i></div>
+                        <div class="elementor-swiper-button elementor-swiper-button-next"><i class="eicon-chevron-right" aria-hidden="true"></i></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FUTURE VISION -->
+    <div class="elementor-element elementor-element-6d05c0c6 e-flex e-con-boxed e-con e-parent">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-798b84be e-con-full e-flex e-con e-child">
+                <div class="elementor-element elementor-element-606d6dde elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Visualize você daqui a 45 dias...</h2>
+                </div>
+                <div class="elementor-element elementor-element-7aa4f68f elementor-widget elementor-widget-text-editor">
+                    <p style="font-size: 18px;">Acordando com leveza, sabendo exatamente suas metas. Sem culpa, sem confusão mental. Com orgulho da pessoa que você vê no espelho.</p>
+                    <p style="font-size: 18px;">Isso não é sorte. <span class="highlight-text">É método.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BONUSES SECTION (Value Stacking) -->
+    <div class="elementor-element elementor-element-70e60647 e-flex e-con-boxed e-con e-parent">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-fe3b62e elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default" style="text-align: center; color: #00d084;">🎁 BÔNUS EXCLUSIVOS (Só para quem agir hoje)</h2>
+            </div>
+            <div class="elementor-element elementor-element-72cb2019 elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Eu vou te dar todas as ferramentas para garantir que você não falhe:</h2>
+            </div>
+
+            <!-- Bonus 1 -->
+            <div class="elementor-element elementor-element-353bf906 e-con-full e-flex e-con e-child" style="margin-top: 40px; border-bottom: 1px solid #333; padding-bottom: 20px;">
+                <div class="elementor-element elementor-element-761e971a e-con-full e-flex e-con e-child">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-7.png" class="attachment-full size-full" style="max-width: 200px;" alt="Bônus Áudio" />
+                </div>
+                <div class="elementor-element elementor-element-5e09d5bd e-con-full e-flex e-con e-child">
+                     <h3 class="elementor-heading-title" style="color: #fff;">Bônus 1: Áudio Guiado de Reprogramação Matinal</h3>
+                     <p style="color: #00d084; font-weight: bold;">(Vendido separadamente por R$ 87,00 - HOJE: GRÁTIS)</p>
+                     <p>Comece o dia vencendo. 5 minutos para ativar o foco e a intenção antes de sair da cama.</p>
+                </div>
+            </div>
+
+            <!-- Bonus 2 -->
+            <div class="elementor-element elementor-element-5dc3511d e-con-full e-flex e-con e-child" style="margin-top: 20px; border-bottom: 1px solid #333; padding-bottom: 20px;">
+                <div class="elementor-element elementor-element-299f0483 e-con-full e-flex e-con e-child">
+                     <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-2.png" class="attachment-full size-full" style="max-width: 200px;" alt="Bônus Rotina" />
+                </div>
+                <div class="elementor-element elementor-element-7413eaee e-con-full e-flex e-con e-child">
+                     <h3 class="elementor-heading-title" style="color: #fff;">Bônus 2: Roteiro da Rotina Poderosa</h3>
+                     <p style="color: #00d084; font-weight: bold;">(Vendido separadamente por R$ 97,00 - HOJE: GRÁTIS)</p>
+                     <p>Modelos e checklists para organizar seu dia sem virar escravo do relógio.</p>
+                </div>
+            </div>
+
+            <!-- Bonus 3 -->
+             <div class="elementor-element elementor-element-45123a40 e-con-full e-flex e-con e-child" style="margin-top: 20px; border-bottom: 1px solid #333; padding-bottom: 20px;">
+                <div class="elementor-element elementor-element-4c777c46 e-con-full e-flex e-con e-child">
+                     <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-4-1-724x1024.png" class="attachment-full size-full" style="max-width: 200px;" alt="Bônus Livros" />
+                </div>
+                <div class="elementor-element elementor-element-281fada9 e-con-full e-flex e-con e-child">
+                     <h3 class="elementor-heading-title" style="color: #fff;">Bônus 3: Biblioteca do Mindset</h3>
+                     <p style="color: #00d084; font-weight: bold;">(Vendido separadamente por R$ 117,00 - HOJE: GRÁTIS)</p>
+                     <p>Curadoria dos conhecimentos mais impactantes sobre prosperidade e foco.</p>
+                </div>
+            </div>
+
+            <!-- Bonus 4 -->
+            <div class="elementor-element elementor-element-64ed1ca e-con-full e-flex e-con e-child" style="margin-top: 20px;">
+                <div class="elementor-element elementor-element-5e449f14 e-con-full e-flex e-con e-child">
+                     <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-5-724x1024.png" class="attachment-full size-full" style="max-width: 200px;" alt="Bônus Potencial" />
+                </div>
+                <div class="elementor-element elementor-element-188151 e-con-full e-flex e-con e-child">
+                     <h3 class="elementor-heading-title" style="color: #fff;">Bônus 4: Desbloqueie Seu Potencial</h3>
+                     <p style="color: #00d084; font-weight: bold;">(Vendido separadamente por R$ 147,00 - HOJE: GRÁTIS)</p>
+                     <p>Identifique e destrua as crenças que te sabotam em silêncio.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- THE OFFER SECTION (Anchor Pricing) -->
+    <div class="elementor-element elementor-element-746c9d48 e-flex e-con-boxed e-con e-parent">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-585d7f52 e-con-full e-flex e-con e-child" id="comprar" style="background: #111; padding: 40px; border-radius: 15px; border: 1px solid #333;">
+                
+                <div class="elementor-element elementor-element-300232ee elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title" style="text-align: center; color: #888; font-size: 20px;">VALOR TOTAL (Desafio + Bônus): <s style="color: #ff4d4d;">R$ 448,00</s></h2>
+                </div>
+                
+                <div class="elementor-element elementor-element-300232ee elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title" style="text-align: center; color: #fff; font-size: 24px; margin-top: 10px;">HOJE, POR APENAS:</h2>
+                </div>
+                
+                <div class="elementor-element elementor-element-300232ee elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title" style="text-align: center; color: #00d084; font-size: 60px; font-weight: 900; line-height: 1;">R$ 29,00</h2>
+                    <p style="text-align: center; color: #fff;">(Pagamento único, sem mensalidades)</p>
+                </div>
+
+                <div class="elementor-element elementor-element-5dcc149b elementor-align-justify elementor-widget elementor-widget-button">
+                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow cta-button-pulse" href="https://pay.cakto.com.br/82ns7ae_396839?affiliate=X3qbyUyU" style="background-color: #00d084; color: #000; font-weight: 800; border-radius: 50px; font-size: 22px; padding: 20px 30px;">
+                        <span class="elementor-button-content-wrapper">
+                            <span class="elementor-button-text">SIM! QUERO MUDAR MINHA VIDA AGORA</span>
+                        </span>
+                    </a>
+                </div>
+                
+                <div class="elementor-element elementor-element-e00b397 elementor-align-center elementor-widget elementor-widget-icon-list">
+                    <ul class="elementor-icon-list-items" style="justify-content: center; margin-top: 15px;">
+                        <li class="elementor-icon-list-item">
+                            <span class="elementor-icon-list-icon"><i class="fas fa-lock" aria-hidden="true"></i></span>
+                            <span class="elementor-icon-list-text" style="color: #aaa;">Acesso Imediato • Pagamento Seguro • Risco Zero</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GUARANTEE SECTION -->
+    <div class="elementor-element elementor-element-5d4d0e65 e-flex e-con-boxed e-con e-parent">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-49017d10 e-con-full e-flex e-con e-child" style="text-align: center;">
+                <div class="elementor-element elementor-element-3af59121 elementor-widget elementor-widget-image">
+                    <img loading="lazy" decoding="async" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1.png" class="attachment-full size-full" style="max-width: 150px; margin: 0 auto;" alt="Selo de Garantia" />
+                </div>
+                <div class="elementor-element elementor-element-602a4e03 elementor-widget elementor-widget-heading">
+                    <h2 class="elementor-heading-title highlight-text">7 DIAS DE GARANTIA INCONDICIONAL</h2>
+                </div>
+                <div class="elementor-element elementor-element-3562a6a3 elementor-widget elementor-widget-text-editor">
+                    <p>Eu assumo o risco. Acesse o material, aplique as primeiras missões. Se você não sentir que vale 10x o valor investido, me envie um e-mail e eu devolvo 100% do seu dinheiro. Sem perguntas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ SECTION (Kept simple and effective) -->
+    <div class="elementor-element elementor-element-141cec91 e-flex e-con-boxed e-con e-parent">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-4119bc67 elementor-widget elementor-widget-heading">
+                <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">Dúvidas Frequentes</h2>
+            </div>
+            <div class="elementor-element elementor-element-7d3a1826 elementor-widget elementor-widget-accordion">
+                <div class="elementor-accordion">
+                    <div class="elementor-accordion-item">
+                        <div class="elementor-tab-title" tabindex="0"><a class="elementor-accordion-title">Preciso de muito tempo por dia?</a></div>
+                        <div class="elementor-tab-content"><p>Não. A média é de 15 a 20 minutos. É sobre consistência, não intensidade exagerada.</p></div>
+                    </div>
+                    <div class="elementor-accordion-item">
+                        <div class="elementor-tab-title" tabindex="0"><a class="elementor-accordion-title">E se eu não gostar?</a></div>
+                        <div class="elementor-tab-content"><p>Você tem 7 dias de garantia total. Seu risco é zero.</p></div>
+                    </div>
+                    <div class="elementor-accordion-item">
+                        <div class="elementor-tab-title" tabindex="0"><a class="elementor-accordion-title">Como recebo o acesso?</a></div>
+                        <div class="elementor-tab-content"><p>Imediatamente no seu e-mail após a confirmação do pagamento.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER (Compliance & Trust) -->
+    <div class="elementor-element elementor-element-10e94de3 e-flex e-con-boxed e-con e-parent" style="padding-top: 50px; padding-bottom: 50px;">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-footer-blindado elementor-widget elementor-widget-text-editor">
+               <div style="text-align: center; font-size: 12px; color: #666; line-height: 1.5;">
+                   <p><strong>Copyright © 2026 The Mindset Brasil - Todos os direitos reservados.</strong></p>
+                   <p>Este site não é afiliado ao Google LLC nem ao Facebook Inc. Os conteúdos aqui apresentados têm caráter puramente educacional.</p>
+                   <p><em>Isenção de Responsabilidade: Os resultados variam de pessoa para pessoa dependendo da dedicação e aplicação do método. Nenhuma informação nesta página substitui aconselhamento médico ou profissional financeiro.</em></p>
+                   <p>
+                       <a href="#" style="color: #888; text-decoration: none;">Política de Privacidade</a> | 
+                       <a href="#" style="color: #888; text-decoration: none;">Termos de Uso</a> | 
+                       <a href="#" style="color: #888; text-decoration: none;">Contato</a>
+                   </p>
+                   <p>CNPJ: 55.830.070/0001-69</p>
+               </div>
+            </div>
+        </div>
+    </div>
+
 </div>
-				<div class="elementor-element elementor-element-c32fc8f elementor-align-justify elementor-mobile-align-justify elementor-widget__width-initial animated-fast elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-button" data-id="c32fc8f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#comprar">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Ativar o Código!</span>
-					</span>
-					</a>
-								</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-3dbee2eb e-flex e-con-boxed e-con e-parent" data-id="3dbee2eb" data-element_type="container">
-					<div class="e-con-inner">
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-10ea1662 e-flex e-con-boxed e-con e-parent" data-id="10ea1662" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-7a6f3cae e-con-full e-flex e-con e-child" data-id="7a6f3cae" data-element_type="container">
-				<div class="elementor-element elementor-element-6e6ab491 elementor-widget elementor-widget-text-editor" data-id="6e6ab491" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Você já tentou criar hábitos.<br data-start="869" data-end="872" />Já tentou mudar sua rotina.<br data-start="899" data-end="902" />Já começou e parou várias vezes.</p>								</div>
-				<div class="elementor-element elementor-element-61d267e9 elementor-widget elementor-widget-text-editor" data-id="61d267e9" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Mas ainda assim:</p>								</div>
-				<div class="elementor-element elementor-element-23701e31 elementor-widget elementor-widget-image" data-id="23701e31" data-element_type="widget" data-widget_type="image.default">
-															<img decoding="async" width="1800" height="300" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-3.png" class="attachment-full size-full wp-image-14" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-3.png 1800w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-3-300x50.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-3-1024x171.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-3-768x128.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-3-1536x256.png 1536w" sizes="(max-width: 1800px) 100vw, 1800px" />															</div>
-				<div class="elementor-element elementor-element-6de2d88a elementor-widget elementor-widget-image" data-id="6de2d88a" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1800" height="300" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-4.png" class="attachment-full size-full wp-image-15" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-4.png 1800w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-4-300x50.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-4-1024x171.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-4-768x128.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-4-1536x256.png 1536w" sizes="(max-width: 1800px) 100vw, 1800px" />															</div>
-				<div class="elementor-element elementor-element-719d7326 elementor-widget elementor-widget-image" data-id="719d7326" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1800" height="300" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-5.png" class="attachment-full size-full wp-image-16" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-5.png 1800w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-5-300x50.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-5-1024x171.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-5-768x128.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-5-1536x256.png 1536w" sizes="(max-width: 1800px) 100vw, 1800px" />															</div>
-				<div class="elementor-element elementor-element-46de2997 elementor-widget elementor-widget-image" data-id="46de2997" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1800" height="300" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-6.png" class="attachment-full size-full wp-image-17" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-6.png 1800w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-6-300x50.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-6-1024x171.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-6-768x128.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-6-1536x256.png 1536w" sizes="(max-width: 1800px) 100vw, 1800px" />															</div>
-				<div class="elementor-element elementor-element-7cd8cce1 elementor-widget elementor-widget-image" data-id="7cd8cce1" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1800" height="300" src="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-7.png" class="attachment-full size-full wp-image-18" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-7.png 1800w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-7-300x50.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-7-1024x171.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-7-768x128.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/ID-page-7-1536x256.png 1536w" sizes="(max-width: 1800px) 100vw, 1800px" />															</div>
-				<div class="elementor-element elementor-element-3423b421 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="3423b421" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">E lá no fundo… você sente que a vida tá passando — <span style="color: #ffffff"> e você ainda não tá vivendo do jeito que sonhou.</h2>				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-23fc3a44 e-flex e-con-boxed e-con e-parent" data-id="23fc3a44" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-2bf086fc elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2bf086fc" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Ninguém vê. Mas você sente:
 
-</h2>				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-361ded3e e-flex e-con-boxed e-con e-parent" data-id="361ded3e" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-1a27ad5f e-con-full e-flex e-con e-child" data-id="1a27ad5f" data-element_type="container">
-				<div class="elementor-element elementor-element-26d35eaa elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="26d35eaa" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1.jpg" class="attachment-full size-full wp-image-20" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1.jpg 2560w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1-300x169.jpg 300w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1-1024x576.jpg 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1-768x432.jpg 768w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1-1536x864.jpg 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7102-scaled-1-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-3e0264de e-con-full e-flex e-con e-child" data-id="3e0264de" data-element_type="container">
-				<div class="elementor-element elementor-element-27dce94f elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="27dce94f" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1.jpg" class="attachment-full size-full wp-image-21" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1.jpg 2560w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1-300x169.jpg 300w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1-1024x576.jpg 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1-768x432.jpg 768w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1-1536x864.jpg 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7103-scaled-1-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-7e4ac745 e-con-full e-flex e-con e-child" data-id="7e4ac745" data-element_type="container">
-				<div class="elementor-element elementor-element-55894ad0 elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="55894ad0" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1.jpg" class="attachment-full size-full wp-image-22" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1.jpg 2560w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1-300x169.jpg 300w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1-1024x576.jpg 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1-768x432.jpg 768w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1-1536x864.jpg 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7105-scaled-1-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-2cbac0d9 e-con-full e-flex e-con e-child" data-id="2cbac0d9" data-element_type="container">
-				<div class="elementor-element elementor-element-2a05201f elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="2a05201f" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7104-scaled-1.jpg" class="attachment-full size-full wp-image-23" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7104-scaled-1.jpg 2560w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7104-scaled-1-300x169.jpg 300w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7104-scaled-1-1024x576.jpg 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7104-scaled-1-768x432.jpg 768w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7104-scaled-1-1536x864.jpg 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7104-scaled-1-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-30eafdf6 e-con-full e-flex e-con e-child" data-id="30eafdf6" data-element_type="container">
-				<div class="elementor-element elementor-element-797b6930 elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="797b6930" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7106-scaled-1.jpg" class="attachment-full size-full wp-image-24" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7106-scaled-1.jpg 2560w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7106-scaled-1-300x169.jpg 300w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7106-scaled-1-1024x576.jpg 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7106-scaled-1-768x432.jpg 768w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7106-scaled-1-1536x864.jpg 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7106-scaled-1-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-69c4a579 e-con-full e-flex e-con e-child" data-id="69c4a579" data-element_type="container">
-				<div class="elementor-element elementor-element-4e6ed37e elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="4e6ed37e" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="2560" height="1440" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7107-scaled-1.jpg" class="attachment-full size-full wp-image-25" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7107-scaled-1.jpg 2560w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7107-scaled-1-300x169.jpg 300w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7107-scaled-1-1024x576.jpg 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7107-scaled-1-768x432.jpg 768w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7107-scaled-1-1536x864.jpg 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7107-scaled-1-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" />															</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-15988217 e-con-full e-flex e-con e-parent" data-id="15988217" data-element_type="container">
-		<div class="elementor-element elementor-element-6b1853c6 e-con-full e-flex e-con e-child" data-id="6b1853c6" data-element_type="container">
-				<div class="elementor-element elementor-element-62099916 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="62099916" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">E no fundo, uma pergunta ecoa todos os dias:
+<!-- Elementor Scripts Loader -->
+<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.33.4"></script>
+<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.33.4"></script>
+<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.33.4"></script>
+<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"></script>
 
- <span style="color: #ffffff"> "Será que minha vida vai ser só isso mesmo?" </span> </h2>				</div>
-				<div class="elementor-element elementor-element-1a56a1dd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1a56a1dd" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Eu te respondo: NÃO!  <span style="color: #ffffff"> Você ainda tem tempo de mudar.</h2>				</div>
-				<div class="elementor-element elementor-element-306f67fa elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="306f67fa" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">E é por isso que o <span style="color: #ffffff"> “Código da Abundância”  </span> foi criado.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-28204fd7 e-con-full e-flex e-con e-parent" data-id="28204fd7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-7096b735 e-con-full e-flex e-con e-child" data-id="7096b735" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-71ee516f elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="71ee516f" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1810" height="2560" src="https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-scaled.png" class="attachment-full size-full wp-image-26" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-scaled.png 1810w, https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-212x300.png 212w, https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-724x1024.png 724w, https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-768x1086.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-1086x1536.png 1086w, https://desafio45dias.com/wp-content/uploads/2025/07/Codigo-da-Abundancia-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-9-1448x2048.png 1448w" sizes="(max-width: 1810px) 100vw, 1810px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-44964a33 e-con-full e-flex e-con e-child" data-id="44964a33" data-element_type="container">
-				<div class="elementor-element elementor-element-722287f1 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="722287f1" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">O QUE É O CÓDIGO DA ABUNDÂNCIA?</h2>				</div>
-				<div class="elementor-element elementor-element-19e263ae elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="19e263ae" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Isso não é apenas um guia.</h2>				</div>
-				<div class="elementor-element elementor-element-6a8a2116 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="6a8a2116" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">é um desafio guiado de 45 dias que vai te tirar da estagnação e te levar pra uma vida com clareza, controle e propósito real.</h2>				</div>
-				<div class="elementor-element elementor-element-4f4c01e3 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="4f4c01e3" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Você vai passar por um processo de transformação completo, com missões diárias básicas, porém profundas, que vão alinhar sua vida em 5 áreas:</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-32e12725 e-flex e-con-boxed e-con e-parent" data-id="32e12725" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-729e6569 e-con-full e-flex e-con e-child" data-id="729e6569" data-element_type="container">
-		<div class="elementor-element elementor-element-35675015 e-con-full e-flex e-con e-child" data-id="35675015" data-element_type="container">
-				<div class="elementor-element elementor-element-7172e577 elementor-widget elementor-widget-image" data-id="7172e577" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-1024x1024.png" class="attachment-large size-large wp-image-27" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-1024x1024.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-768x768.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-1536x1536.png 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-34-2048x2048.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-				<div class="elementor-element elementor-element-2c043d0b elementor-widget elementor-widget-heading" data-id="2c043d0b" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">1. Organização Financeira</h2>				</div>
-				<div class="elementor-element elementor-element-443553c elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="443553c" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Você vai desenvolver uma nova mentalidade sobre o dinheiro, aprendendo princípios de organização para gerir melhor seus recursos.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-4723394e e-con-full e-flex e-con e-child" data-id="4723394e" data-element_type="container">
-				<div class="elementor-element elementor-element-427f90c2 elementor-widget elementor-widget-image" data-id="427f90c2" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-1024x1024.png" class="attachment-large size-large wp-image-29" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-1024x1024.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-768x768.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-1536x1536.png 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-35-1-2048x2048.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-				<div class="elementor-element elementor-element-53057513 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="53057513" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">2. Abundância Mental</h2>				</div>
-				<div class="elementor-element elementor-element-3c1c0610 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="3c1c0610" data-element_type="widget" data-widget_type="text-editor.default">
-									<p><span data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102}}">Vai limpar sua mente de distrações, focar no que importa e pensar como alguém que prospera.</span></p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-5da94173 e-con-full e-flex e-con e-child" data-id="5da94173" data-element_type="container">
-				<div class="elementor-element elementor-element-44fe686d elementor-widget elementor-widget-image" data-id="44fe686d" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-1024x1024.png" class="attachment-large size-large wp-image-30" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-1024x1024.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-768x768.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-1536x1536.png 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-36-2048x2048.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-				<div class="elementor-element elementor-element-77e3822f elementor-widget elementor-widget-heading" data-id="77e3822f" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">3. Abundância Emocional</h2>				</div>
-				<div class="elementor-element elementor-element-5f4a4881 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="5f4a4881" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Você vai conhecer técnicas de inteligência emocional para lidar com os desafios do dia a dia com mais equilíbrio e clareza.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-3480437d e-con-full e-flex e-con e-child" data-id="3480437d" data-element_type="container">
-		<div class="elementor-element elementor-element-726390bd e-con-full e-flex e-con e-child" data-id="726390bd" data-element_type="container">
-				<div class="elementor-element elementor-element-3359a447 elementor-widget elementor-widget-image" data-id="3359a447" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-1024x1024.png" class="attachment-large size-large wp-image-31" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-1024x1024.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-768x768.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-1536x1536.png 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-37-2048x2048.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-				<div class="elementor-element elementor-element-1d2b117 elementor-widget elementor-widget-heading" data-id="1d2b117" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">4. Abundância Profissional</h2>				</div>
-				<div class="elementor-element elementor-element-1865cc21 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="1865cc21" data-element_type="widget" data-widget_type="text-editor.default">
-									<p><span data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102}}">Vai se posicionar de forma mais forte e começar a construir algo de verdade</span></p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-30b9ac57 e-con-full e-flex e-con e-child" data-id="30b9ac57" data-element_type="container">
-				<div class="elementor-element elementor-element-50bba066 elementor-widget elementor-widget-image" data-id="50bba066" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-1024x1024.png" class="attachment-large size-large wp-image-32" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-1024x1024.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-768x768.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-1536x1536.png 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-38-2048x2048.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-				<div class="elementor-element elementor-element-486f7a6e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="486f7a6e" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">5. Abundância Espiritual</h2>				</div>
-				<div class="elementor-element elementor-element-113d94e0 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="113d94e0" data-element_type="widget" data-widget_type="text-editor.default">
-									<p><span data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;style&quot;:102}}">Vai se reconectar com o que realmente importa e viver com mais paz e intenção</span></p>								</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-28ec6834 e-flex e-con-boxed e-con e-parent" data-id="28ec6834" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-b53870a e-con-full e-flex e-con e-child" data-id="b53870a" data-element_type="container">
-				<div class="elementor-element elementor-element-2617c077 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2617c077" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Tudo isso, com apenas  <span style="color: #ffffff"> 15 a 20 minutos por dia. </span> </h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-38986f1b elementor-align-justify elementor-mobile-align-justify elementor-widget__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="38986f1b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#comprar">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">ADQUIRIR AGORA!</span>
-					</span>
-					</a>
-								</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-914a94 e-flex e-con-boxed e-con e-parent" data-id="914a94" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-78a8561b e-con-full e-flex e-con e-child" data-id="78a8561b" data-element_type="container">
-				<div class="elementor-element elementor-element-2e245f71 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2e245f71" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">“Mas isso realmente funciona?”</h2>				</div>
-				<div class="elementor-element elementor-element-1233a1cd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1233a1cd" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Não acredite nas minhas palavras,  <span style="color: #ffffff"> mas na deles: </span> </h2>				</div>
-				<div class="elementor-element elementor-element-751342a5 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="751342a5" data-element_type="widget" data-settings="{&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image-carousel.default">
-							<div class="elementor-image-carousel-wrapper swiper" role="region" aria-roledescription="carousel" aria-label="Carrossel de imagens" dir="ltr">
-			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
-								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7117.jpg" alt="IMG_7117.jpg" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 de 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7112.jpg" alt="IMG_7112.jpg" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 de 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7115.jpg" alt="IMG_7115.jpg" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 de 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7110.jpg" alt="IMG_7110.jpg" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 de 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://desafio45dias.com/wp-content/uploads/2025/07/IMG_7120.jpg" alt="IMG_7120.jpg" /></figure></div>			</div>
-												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
-						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>					</div>
-					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
-						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"></path></svg>					</div>
-				
-									<div class="swiper-pagination"></div>
-									</div>
-						</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-6d05c0c6 e-flex e-con-boxed e-con e-parent" data-id="6d05c0c6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-798b84be e-con-full e-flex e-con e-child" data-id="798b84be" data-element_type="container">
-				<div class="elementor-element elementor-element-606d6dde elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="606d6dde" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Já pensou você ser o próximo?</h2>				</div>
-				<div class="elementor-element elementor-element-1e04934d elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1e04934d" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"> <span style="color: #ffffff"> Imagina você daqui a 45 dias… </span> </h2>				</div>
-				<div class="elementor-element elementor-element-7aa4f68f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="7aa4f68f" data-element_type="widget" data-widget_type="text-editor.default">
-									<p class="" data-start="2650" data-end="2672">Acordando com leveza e sabendo exatamente o que quer. Pra onde está indo e como está evoluindo.</p><p class="" data-start="2650" data-end="2672">Sem culpa. Sem pressa. Sem confusão.</p><p class="" data-start="2650" data-end="2672">Com orgulho do que está construindo — e com uma energia nova que você nem lembrava que existia.</p><p data-start="2650" data-end="2672">Esse não é só um desafio. É a decisão de parar de sobreviver e finalmente começar a viver.</p>								</div>
-				<div class="elementor-element elementor-element-d25dbfc elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="d25dbfc" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Se você sente que precisa virar a chave de uma vez por todas,</p><p>então o <em data-start="1480" data-end="1502">Código da Abundância</em> foi feito pra você.</p>								</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-70e60647 e-flex e-con-boxed e-con e-parent" data-id="70e60647" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-fe3b62e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="fe3b62e" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Você não está só entrando num desafio. Está entrando pra um grupo seleto de pessoas que vão receber o que ninguém mais vai ter acesso…
-</h2>				</div>
-				<div class="elementor-element elementor-element-65a12f5c elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="65a12f5c" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">E pra quem decide hoje, eu separei bônus exclusivos, de acesso restrito, que não estarão disponíveis futuramente.
-
-</h2>				</div>
-				<div class="elementor-element elementor-element-72cb2019 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="72cb2019" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Sim — isso aqui é pra quem age.
-
-
-</h2>				</div>
-		<div class="elementor-element elementor-element-353bf906 e-con-full e-flex e-con e-child" data-id="353bf906" data-element_type="container">
-		<div class="elementor-element elementor-element-761e971a e-con-full e-flex e-con e-child" data-id="761e971a" data-element_type="container">
-				<div class="elementor-element elementor-element-270a2c0d elementor-widget elementor-widget-image" data-id="270a2c0d" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1414" height="2000" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-7.png" class="attachment-full size-full wp-image-38" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-7.png 1414w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-7-212x300.png 212w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-7-724x1024.png 724w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-7-768x1086.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-7-1086x1536.png 1086w" sizes="(max-width: 1414px) 100vw, 1414px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-5e09d5bd e-con-full e-flex e-con e-child" data-id="5e09d5bd" data-element_type="container">
-				<div class="elementor-element elementor-element-5236b0a0 elementor-widget elementor-widget-heading" data-id="5236b0a0" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Bônus 1</h2>				</div>
-				<div class="elementor-element elementor-element-1c94dd4e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1c94dd4e" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Áudio Guiado de Reprogramação Matinal</h2>				</div>
-				<div class="elementor-element elementor-element-5b970284 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="5b970284" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>(valor simbólico: R$87,00)</p>								</div>
-				<div class="elementor-element elementor-element-189ed3f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="189ed3f" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Um áudio guiado para você ouvir logo ao acordar — feito pra alinhar sua mente, ativar o foco e reprogramar seu estado emocional antes do dia começar.</p><p>Enquanto o mundo acorda no automático, você vai despertar com presença, intenção e propósito.<br data-start="874" data-end="877" />É como se, em 5 minutos, você lembrasse quem você é e onde quer chegar.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5dc3511d e-con-full e-flex e-con e-child" data-id="5dc3511d" data-element_type="container">
-		<div class="elementor-element elementor-element-299f0483 e-con-full e-flex e-con e-child" data-id="299f0483" data-element_type="container">
-				<div class="elementor-element elementor-element-8b033ff elementor-widget elementor-widget-image" data-id="8b033ff" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1414" height="2000" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-2.png" class="attachment-full size-full wp-image-39" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-2.png 1414w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-2-212x300.png 212w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-2-724x1024.png 724w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-2-768x1086.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-2-1086x1536.png 1086w" sizes="(max-width: 1414px) 100vw, 1414px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-7413eaee e-con-full e-flex e-con e-child" data-id="7413eaee" data-element_type="container">
-				<div class="elementor-element elementor-element-5b2d2e9c elementor-widget elementor-widget-heading" data-id="5b2d2e9c" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Bônus 2</h2>				</div>
-				<div class="elementor-element elementor-element-1361c23b elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1361c23b" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Roteiro da Rotina Poderosa</h2>				</div>
-				<div class="elementor-element elementor-element-5c04f10 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="5c04f10" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>(valor simbólico: R$97,00)</p>								</div>
-				<div class="elementor-element elementor-element-143f7293 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="143f7293" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Se sua rotina não te impulsiona, ela te sabota.</p><p>Esse material exclusivo foi feito pra te ajudar a organizar seus dias com clareza, energia e propósito real.<br data-start="1263" data-end="1266" />Você vai aprender como montar uma rotina simples, flexível e funcional — que respeita sua vida e te coloca em movimento.<br data-start="1386" data-end="1389" />Inclui modelos, planners, checklists e uma estrutura prática que você pode aplicar ainda hoje.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-45123a40 e-con-full e-flex e-con e-child" data-id="45123a40" data-element_type="container">
-		<div class="elementor-element elementor-element-4c777c46 e-con-full e-flex e-con e-child" data-id="4c777c46" data-element_type="container">
-				<div class="elementor-element elementor-element-218503d1 elementor-widget elementor-widget-image" data-id="218503d1" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="724" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-4-1-724x1024.png" class="attachment-large size-large wp-image-44" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-4-1-724x1024.png 724w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-4-1-212x300.png 212w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-4-1-768x1086.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-4-1-1086x1536.png 1086w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-4-1.png 1414w" sizes="(max-width: 724px) 100vw, 724px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-281fada9 e-con-full e-flex e-con e-child" data-id="281fada9" data-element_type="container">
-				<div class="elementor-element elementor-element-bf26f15 elementor-widget elementor-widget-heading" data-id="bf26f15" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Bônus 3</h2>				</div>
-				<div class="elementor-element elementor-element-312b00fc elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="312b00fc" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Biblioteca do Mindset</h2>				</div>
-				<div class="elementor-element elementor-element-1984b736 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="1984b736" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>(valor simbólico: R$117,00)</p>								</div>
-				<div class="elementor-element elementor-element-185cd76a elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="185cd76a" data-element_type="widget" data-widget_type="text-editor.default">
-									<p class="" data-start="1633" data-end="1878">Uma curadoria especial com os livros mais transformadores divididos nas 5 áreas da abundância.</p><p class="" data-start="1633" data-end="1878">Cada indicação vem com um motivo claro, uma frase impactante e um propósito específico.</p><blockquote data-start="1880" data-end="1967"><p class="" data-start="1882" data-end="1967">Você não precisa ler 100 livros.<br data-start="1914" data-end="1917" />Precisa dos livros certos — com o mindset certo.</p></blockquote><p class="" data-start="1969" data-end="2018">Essa é a sua nova biblioteca pessoal de expansão.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-64ed1ca e-con-full e-flex e-con e-child" data-id="64ed1ca" data-element_type="container">
-		<div class="elementor-element elementor-element-5e449f14 e-con-full e-flex e-con e-child" data-id="5e449f14" data-element_type="container">
-				<div class="elementor-element elementor-element-707ab6b7 elementor-widget elementor-widget-image" data-id="707ab6b7" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="724" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-5-724x1024.png" class="attachment-large size-large wp-image-45" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-5-724x1024.png 724w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-5-212x300.png 212w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-5-768x1086.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-5-1086x1536.png 1086w, https://desafio45dias.com/wp-content/uploads/2025/07/BONUS-ROTEIRO-DA-ROTINA-PODEROSA-O-Guia-Definitivo-para-Transformar-Sua-Vida-em-45-Dias-5.png 1414w" sizes="(max-width: 724px) 100vw, 724px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-188151 e-con-full e-flex e-con e-child" data-id="188151" data-element_type="container">
-				<div class="elementor-element elementor-element-2506e83e elementor-widget elementor-widget-heading" data-id="2506e83e" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Bônus 4</h2>				</div>
-				<div class="elementor-element elementor-element-286d085a elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="286d085a" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Desbloqueie Seu Potencial</h2>				</div>
-				<div class="elementor-element elementor-element-735adc2d elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="735adc2d" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>(valor simbólico: R$147,00)</p>								</div>
-				<div class="elementor-element elementor-element-2c6374f0 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="2c6374f0" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Esse bônus é direto ao ponto.</p><p>Um guia para te mostrar, sem rodeios, as crenças, hábitos e sabotagens invisíveis que estão drenando sua energia e impedindo seu crescimento.<br data-start="2315" data-end="2318" />Você vai se reconhecer em cada linha…<br data-start="2355" data-end="2358" />E vai sentir como se estivesse virando uma chave por dentro.</p>								</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-31cd0ebf e-flex e-con-boxed e-con e-parent" data-id="31cd0ebf" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-130d37ce elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="130d37ce" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">O VALOR DE TUDO ISSO?</h2>				</div>
-				<div class="elementor-element elementor-element-583318d1 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="583318d1" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Se fosse somar o preço simbólico de cada bônus, <span style="color: #ffffff"> daria fácil mais de R$400.</h2>				</div>
-				<div class="elementor-element elementor-element-2a5b99c7 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2a5b99c7" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">E sim, <span style="color: #ffffff"> valeria cada centavo.
-</h2>				</div>
-				<div class="elementor-element elementor-element-51832b0c elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="51832b0c" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Mas você vai receber TUDO ISSO de graça ao entrar hoje no desafio por <span style="color: #ffffff"> apenas R$29,00.
-
-</h2>				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-746c9d48 e-flex e-con-boxed e-con e-parent" data-id="746c9d48" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-585d7f52 e-con-full e-flex e-con e-child" data-id="585d7f52" data-element_type="container" id="comprar" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-337d64b5 elementor-widget elementor-widget-image" data-id="337d64b5" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1024" height="576" src="https://desafio45dias.com/wp-content/uploads/2025/07/1920x1080-37-1024x576.png" class="attachment-large size-large wp-image-46" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/1920x1080-37-1024x576.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/1920x1080-37-300x169.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/1920x1080-37-768x432.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/1920x1080-37-1536x864.png 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/1920x1080-37-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-		<div class="elementor-element elementor-element-3f9e7d9e e-con-full e-flex e-con e-child" data-id="3f9e7d9e" data-element_type="container">
-				<div class="elementor-element elementor-element-7875d6d0 elementor-widget elementor-widget-heading" data-id="7875d6d0" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">de <s>R$ 399,00</s> por apenas</h2>				</div>
-				<div class="elementor-element elementor-element-300232ee elementor-widget elementor-widget-heading" data-id="300232ee" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">R$29,00</h2>				</div>
-				<div class="elementor-element elementor-element-5abbb57e elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="5abbb57e" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Sim.</p><p>Menos de R$1,00 por dia pra mudar os próximos anos da sua vida.</p>								</div>
-				<div class="elementor-element elementor-element-product-info elementor-widget elementor-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>Produto 100% Digital (E-book PDF + Áudios). Acesso enviado por e-mail imediatamente após a compra.</p>								</div>
-				<div class="elementor-element elementor-element-5dcc149b elementor-align-justify elementor-mobile-align-justify elementor-widget__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="5dcc149b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceIn&quot;}" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://pay.cakto.com.br/82ns7ae_396839?affiliate=X3qbyUyU">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">ADQUIRIR AGORA!</span>
-					</span>
-					</a>
-								</div>
-				<div class="elementor-element elementor-element-e00b397 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e00b397" data-element_type="widget" data-widget_type="icon-list.default">
-							<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-lock" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Pagamento seguro</span>
-									</li>
-						</ul>
-						</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-5d4d0e65 e-flex e-con-boxed e-con e-parent" data-id="5d4d0e65" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-49017d10 e-con-full e-flex e-con e-child" data-id="49017d10" data-element_type="container">
-				<div class="elementor-element elementor-element-3af59121 elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="3af59121" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="2160" height="2160" src="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1.png" class="attachment-full size-full wp-image-48" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1.png 2160w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1-1024x1024.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1-768x768.png 768w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1-1536x1536.png 1536w, https://desafio45dias.com/wp-content/uploads/2025/07/1080x1080-39-1-2048x2048.png 2048w" sizes="(max-width: 2160px) 100vw, 2160px" />															</div>
-				<div class="elementor-element elementor-element-602a4e03 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="602a4e03" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Você tem 7 dias de garantia.</h2>				</div>
-				<div class="elementor-element elementor-element-2be5b820 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2be5b820" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Sem pressão. Sem risco. Sem pegadinha.</h2>				</div>
-				<div class="elementor-element elementor-element-3562a6a3 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="3562a6a3" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Você vai acessar o conteúdo.
-Vai viver os primeiros dias da jornada.
-Vai sentir o que acontece quando começa a se reconectar consigo mesmo — <span style="color: #ffffff"> de verdade.
-
-</h2>				</div>
-				<div class="elementor-element elementor-element-3bed8fcc elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="3bed8fcc" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">E se dentro desses 7 dias você olhar pra tudo isso e, por qualquer motivo, sentir que não foi pra você… <span style="color: #ffffff">
-é só enviar um e-mail.
-
-</h2>				</div>
-				<div class="elementor-element elementor-element-62223934 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="62223934" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">A responsabilidade <span style="color: #ffffff"> é minha.​
-
-</h2>				</div>
-				<div class="elementor-element elementor-element-6701eb1c elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="6701eb1c" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">O compromisso, <span style="color: #ffffff"> seu.
-
-</h2>				</div>
-				<div class="elementor-element elementor-element-314ab7bf elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="314ab7bf" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default"><span style="color: #ffffff"> O único risco <span style="color: #a8a8a8"> é continuar exatamente como você está.</h2>				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-141cec91 e-flex e-con-boxed e-con e-parent" data-id="141cec91" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-4119bc67 elementor-widget elementor-widget-heading" data-id="4119bc67" data-element_type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Perguntas Frequentes (FAQ)</h2>				</div>
-				<div class="elementor-element elementor-element-6a9011fc elementor-widget elementor-widget-text-editor" data-id="6a9011fc" data-element_type="widget" data-widget_type="text-editor.default">
-									Ficou com alguma dúvida? 								</div>
-				<div class="elementor-element elementor-element-7d3a1826 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-accordion" data-id="7d3a1826" data-element_type="widget" data-widget_type="accordion.default">
-							<div class="elementor-accordion">
-							<div class="elementor-accordion-item">
-					<div id="elementor-tab-title-2101" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-2101" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-caret-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-caret-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">Preciso de muito tempo por dia?</a>
-					</div>
-					<div id="elementor-tab-content-2101" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-2101"><p class="" data-start="4635" data-end="4763">Não. A média é de 10 a 20 minutos por missão. É mais sobre constância do que quantidade</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<div id="elementor-tab-title-2102" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-2102" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-caret-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-caret-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">E se eu não conseguir terminar?</a>
-					</div>
-					<div id="elementor-tab-content-2102" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2102"><p class="" data-start="4765" data-end="4887">Você pode recomeçar quando quiser. Esse guia serve pra todas as fases da sua vida</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<div id="elementor-tab-title-2103" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-2103" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-caret-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-caret-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">Esse guia serve pra qualquer idade?</a>
-					</div>
-					<div id="elementor-tab-content-2103" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-2103"><p class="" data-start="4889" data-end="5032">Sim. Qualquer pessoa, de qualquer lugar, que queira evoluir de verdade vai tirar muito valor disso</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<div id="elementor-tab-title-2104" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-2104" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-caret-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-caret-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">A partir do pagamento quando terei acesso?</a>
-					</div>
-					<div id="elementor-tab-content-2104" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-2104"><p class="" data-start="5034" data-end="5133">Imediatamente após a compra, no seu e-mail. Simples e rápido.</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<div id="elementor-tab-title-2105" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-2105" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-caret-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-caret-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">Posso acessar o conteúdo no meu celular?</a>
-					</div>
-					<div id="elementor-tab-content-2105" class="elementor-tab-content elementor-clearfix" data-tab="5" role="region" aria-labelledby="elementor-tab-title-2105"><p>Sim! Você pode acessar no tablet, computador, celular, e qualquer dispositivo eletrônico que tenha acesso à internet e suporte para vídeo, com exceção à Smart TVs.</p></div>
-				</div>
-								</div>
-						</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-10e94de3 e-flex e-con-boxed e-con e-parent" data-id="10e94de3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-7474ba26 e-con-full e-flex e-con e-child" data-id="7474ba26" data-element_type="container">
-				<div class="elementor-element elementor-element-2da0b0ee elementor-widget elementor-widget-image" data-id="2da0b0ee" data-element_type="widget" data-widget_type="image.default">
-															<img loading="lazy" decoding="async" width="1024" height="1024" src="https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39.png" class="attachment-large size-large wp-image-11" alt="" srcset="https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39.png 1024w, https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39-300x300.png 300w, https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39-150x150.png 150w, https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39-768x768.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-				</div>
-		<div class="elementor-element elementor-element-f0a04d3 e-con-full e-flex e-con e-child" data-id="f0a04d3" data-element_type="container">
-				<div class="elementor-element elementor-element-10dd6cfb elementor-widget elementor-widget-text-editor" data-id="10dd6cfb" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>The Mindset Brasil | Código da Abundância<br />© 2026 – Todos os Direitos Reservados.</p>								</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-6ef89fc3 e-flex e-con-boxed e-con e-parent" data-id="6ef89fc3" data-element_type="container">
-					<div class="e-con-inner">
-<div class="elementor-element elementor-element-footer-blindado elementor-widget elementor-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
-									   <div style="text-align: center; font-size: 12px; color: #888;">
-									   <p><strong>Copyright © 2026 The Mindset Brasil - Todos os direitos reservados.</strong></p>
-									   <p>
-									   <a href="politica-de-privacidade.html" target="_blank" style="color: #fff;">Política de Privacidade</a> |
-									   <a href="termos-de-uso.html" target="_blank" style="color: #fff;">Termos de Uso</a>
-									   </p>
-									   <p><strong>Atendimento:</strong> contato@desafio45dias.com</p>
-									   <p><strong>Empresa:</strong> The Mindset Brasil (CNPJ: 55.830.070/0001-69)</p>
-									   <p><strong>Localização:</strong> Ribeirão das Neves - MG</p>
-									   <p><em>Isenção de Responsabilidade: Este site não é afiliado ao Google LLC nem ao Facebook Inc. Os conteúdos aqui apresentados têm caráter puramente educacional. Os resultados variam de pessoa para pessoa. Nenhuma informação nesta página substitui aconselhamento profissional.</em></p>
-									   </div>
-								</div>
-					</div>
-				</div>
-				</div>
-		<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/twentytwentyfive/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-			<script>
-				const lazyloadRunObserver = () => {
-					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
-					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
-						entries.forEach( ( entry ) => {
-							if ( entry.isIntersecting ) {
-								let lazyloadBackground = entry.target;
-								if( lazyloadBackground ) {
-									lazyloadBackground.classList.add( 'e-lazyloaded' );
-								}
-								lazyloadBackgroundObserver.unobserve( entry.target );
-							}
-						});
-					}, { rootMargin: '200px 0px 200px 0px' } );
-					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
-						lazyloadBackgroundObserver.observe( lazyloadBackground );
-					} );
-				};
-				const events = [
-					'DOMContentLoaded',
-					'elementor/lazyload/observe',
-				];
-				events.forEach( ( event ) => {
-					document.addEventListener( event, lazyloadRunObserver );
-				} );
-			</script>
-					<style>
-			presto-player:not(.hydrated) {
-  position: relative;
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
-  display: block;
-  aspect-ratio: var(--presto-player-aspect-ratio, 16/9);
-}
-
-presto-player:not(.hydrated) .presto-loader {
-  display: block;
-}
-
-.presto-block-video:not(.presto-sticky-parent) {
-  border-radius: var(--presto-player-border-radius, 0px);
-  overflow: hidden;
-  transform: translateZ(0);
-}
-
-/* Safari-specific fix - disable transform to prevent fullscreen black screen */
-@supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
-  .presto-block-video:not(.presto-sticky-parent) {
-    transform: none;
-  }
-}
-
-.presto-block-video.presto-provider-audio {
-  overflow: visible;
-}
-
-.presto-block-video .presto-sticky-parent {
-  overflow: auto;
-  transform: none;
-}
-
-.presto-sticky-parent {
-  z-index: 99998 !important;
-}
-
-.presto-player-fullscreen-open {
-  z-index: 9999999 !important;
-  overflow: visible !important;
-  transform: none !important;
-}
-
-
-presto-playlist,
-presto-player-skeleton,
-presto-timestamp,
-presto-video-curtain-ui,
-presto-search-bar-ui,
-presto-player-button,
-presto-cta-overlay-ui,
-presto-video,
-presto-action-bar-ui,
-presto-youtube-subscribe-button,
-presto-email-overlay-ui,
-presto-player-spinner,
-presto-action-bar,
-presto-cta-overlay,
-presto-email-overlay,
-presto-bunny,
-presto-dynamic-overlays,
-presto-search-bar,
-presto-youtube,
-presto-audio,
-presto-business-skin,
-presto-modern-skin,
-presto-muted-overlay,
-presto-stacked-skin,
-presto-vimeo,
-presto-action-bar-controller,
-presto-cta-overlay-controller,
-presto-email-overlay-controller,
-presto-dynamic-overlay-ui,
-presto-player,
-presto-playlist-item,
-presto-playlist-overlay,
-presto-playlist-ui {
-  visibility: hidden;
-}
-
-.hydrated {
-  visibility: inherit;
-}		</style>
-		<link rel='modulepreload' href='https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/p-a02bb270.entry.js' as='script' crossorigin />
-<link rel='modulepreload' href='https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/p-BDVGDaui.js' as='script' crossorigin />
-<link rel='modulepreload' href='https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/p-BxRAfMA5.js' as='script' crossorigin />
-<link rel='modulepreload' href='https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/p-EuTDjLsB.js' as='script' crossorigin />
-<link rel='modulepreload' href='https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/p-D8o-F2Bu.js' as='script' crossorigin />
-<link rel='modulepreload' href='https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/p-1610cee0.entry.js' as='script' crossorigin />
-<link rel='modulepreload' href='https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/p-G840BFTB.js' as='script' crossorigin />
-<script id="wp-block-template-skip-link-js-after">
-	( function() {
-		var skipLinkTarget = document.querySelector( 'main' ),
-			sibling,
-			skipLinkTargetID,
-			skipLink;
-
-		// Early exit if a skip-link target can't be located.
-		if ( ! skipLinkTarget ) {
-			return;
-		}
-
-		/*
-		 * Get the site wrapper.
-		 * The skip-link will be injected in the beginning of it.
-		 */
-		sibling = document.querySelector( '.wp-site-blocks' );
-
-		// Early exit if the root element was not found.
-		if ( ! sibling ) {
-			return;
-		}
-
-		// Get the skip-link target's ID, and generate one if it doesn't exist.
-		skipLinkTargetID = skipLinkTarget.id;
-		if ( ! skipLinkTargetID ) {
-			skipLinkTargetID = 'wp--skip-link--target';
-			skipLinkTarget.id = skipLinkTargetID;
-		}
-
-		// Create the skip link.
-		skipLink = document.createElement( 'a' );
-		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
-		skipLink.id = 'wp-skip-link';
-		skipLink.href = '#' + skipLinkTargetID;
-		skipLink.innerText = 'Pular para o conteúdo';
-
-		// Inject the skip link.
-		sibling.parentElement.insertBefore( skipLink, sibling );
-	}() );
-	
-//# sourceURL=wp-block-template-skip-link-js-after
-</script>
-<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.33.4" id="elementor-webpack-runtime-js"></script>
-<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.33.4" id="elementor-frontend-modules-js"></script>
-<script src="https://desafio45dias.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
-<script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.33.4","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"import-export-customization":true},"urls":{"assets":"https:\/\/desafio45dias.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/desafio45dias.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/desafio45dias.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"58110108fe"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":8,"title":"45%20dias%3A%20C%C3%B3digo%20da%20Abund%C3%A2ncia","excerpt":"","featuredImage":false}};
-//# sourceURL=elementor-frontend-js-before
-</script>
-<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.33.4" id="elementor-frontend-js"></script>
-<script src="https://desafio45dias.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
-<script src="https://desafio45dias.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
-<script src="https://desafio45dias.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
-<script id="wp-i18n-js-after">
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-//# sourceURL=wp-i18n-js-after
-</script>
-<script id="presto-components-js-extra">
-var prestoComponents = {"url":"https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/web-components.esm.js?ver=1765637607"};
-var prestoPlayer = {"plugin_url":"https://desafio45dias.com/wp-content/plugins/presto-player/","logged_in":"","root":"https://desafio45dias.com/wp-json/","nonce":"64ae21fe1a","ajaxurl":"https://desafio45dias.com/wp-admin/admin-ajax.php","isAdmin":"","isSetup":{"bunny":false},"proVersion":"","isPremium":"","wpVersionString":"wp/v2/","prestoVersionString":"presto-player/v1/","debug":"","debug_navigator":"","i18n":{"skip":"Skip","rewatch":"Rewatch","emailPlaceholder":"Email address","emailDefaultHeadline":"Enter your email to play this episode.","chapters":"Chapters","show_chapters":"Show Chapters","hide_chapters":"Hide Chapters","restart":"Restart","rewind":"Rewind {seektime}s","play":"Play","pause":"Pause","fastForward":"Forward {seektime}s","seek":"Seek","seekLabel":"{currentTime} of {duration}","played":"Played","buffered":"Buffered","currentTime":"Current time","duration":"Duration","volume":"Volume","mute":"Mute","unmute":"Unmute","enableCaptions":"Enable captions","disableCaptions":"Disable captions","download":"Download","enterFullscreen":"Enter fullscreen","exitFullscreen":"Exit fullscreen","frameTitle":"Player for {title}","captions":"Captions","settings":"Settings","pip":"PIP","menuBack":"Go back to previous menu","speed":"Speed","normal":"Normal","quality":"Quality","loop":"Loop","start":"Start","end":"End","all":"All","reset":"Reset","disabled":"Disabled","enabled":"Enabled","advertisement":"Ad","qualityBadge":{"2160":"4K","1440":"HD","1080":"HD","720":"HD","576":"SD","480":"SD"},"auto":"AUTO","upNext":"Up Next","startOver":"Start Over"}};
-var prestoComponents = {"url":"https://desafio45dias.com/wp-content/plugins/presto-player/dist/components/web-components/web-components.esm.js?ver=1765637607"};
-var prestoPlayer = {"plugin_url":"https://desafio45dias.com/wp-content/plugins/presto-player/","logged_in":"","root":"https://desafio45dias.com/wp-json/","nonce":"64ae21fe1a","ajaxurl":"https://desafio45dias.com/wp-admin/admin-ajax.php","isAdmin":"","isSetup":{"bunny":false},"proVersion":"","isPremium":"","wpVersionString":"wp/v2/","prestoVersionString":"presto-player/v1/","debug":"","debug_navigator":"","i18n":{"skip":"Skip","rewatch":"Rewatch","emailPlaceholder":"Email address","emailDefaultHeadline":"Enter your email to play this episode.","chapters":"Chapters","show_chapters":"Show Chapters","hide_chapters":"Hide Chapters","restart":"Restart","rewind":"Rewind {seektime}s","play":"Play","pause":"Pause","fastForward":"Forward {seektime}s","seek":"Seek","seekLabel":"{currentTime} of {duration}","played":"Played","buffered":"Buffered","currentTime":"Current time","duration":"Duration","volume":"Volume","mute":"Mute","unmute":"Unmute","enableCaptions":"Enable captions","disableCaptions":"Disable captions","download":"Download","enterFullscreen":"Enter fullscreen","exitFullscreen":"Exit fullscreen","frameTitle":"Player for {title}","captions":"Captions","settings":"Settings","pip":"PIP","menuBack":"Go back to previous menu","speed":"Speed","normal":"Normal","quality":"Quality","loop":"Loop","start":"Start","end":"End","all":"All","reset":"Reset","disabled":"Disabled","enabled":"Enabled","advertisement":"Ad","qualityBadge":{"2160":"4K","1440":"HD","1080":"HD","720":"HD","576":"SD","480":"SD"},"auto":"AUTO","upNext":"Up Next","startOver":"Start Over"}};
-//# sourceURL=presto-components-js-extra
-</script>
-<script src="https://desafio45dias.com/wp-content/plugins/presto-player/src/player/player-static.js?ver=1765637607" type="module" defer></script><script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://desafio45dias.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
-</script>
-<script type="module">
-/*! This file is auto-generated */
-const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
-//# sourceURL=https://desafio45dias.com/wp-includes/js/wp-emoji-loader.min.js
-</script>
+<!-- Smooth Scroll Script -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.stopImmediatePropagation();
             const targetId = this.getAttribute('href');
             if(targetId === '#') return;
             const targetElement = document.querySelector(targetId);
@@ -836,25 +521,22 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+    
+    // Accordion Logic Simple Fallback
+    const accItems = document.querySelectorAll('.elementor-tab-title');
+    accItems.forEach(item => {
+        item.addEventListener('click', function() {
+            this.classList.toggle('elementor-active');
+            const content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    });
 });
-</script>					
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "45 dias: Código da Abundância",
-  "description": "Desafio guiado de 45 dias para transformar sua vida financeira, mental e emocional.",
-  "thumbnailUrl": [
-    "https://desafio45dias.com/wp-content/uploads/2025/07/ChatGPT-Image-3-de-abr.-de-2025-13_43_39.png"
-  ],
-  "uploadDate": "2025-07-01T08:00:00-03:00",
-  "contentUrl": "https://www.youtube.com/embed/mA39gkX2yAs",
-  "embedUrl": "https://www.youtube.com/embed/mA39gkX2yAs",
-  "transcript": "Você não chegou até aqui por acaso? Em algum momento do seu dia, talvez cansado, talvez desanimado, você tava ali rolando o feed sem nem pensar, quando algo te chamou atenção. E por alguns segundos você lembrou que quer mudar, só que o tempo passou e você já tentou mudar antes, né? Já fez promessas, já traçou metas, mas a verdade é que a vida te engoliu de novo e tudo o que sobrou foi aquela velha sensação. Eu sei que sou capaz demais. Mas por onde eu começo? A gente vive no automático. Acorda cansado, se arrasta pelo dia, se distrai à noite e repete tudo de novo amanhã. Um ciclo, quase como se tivesse alguém segurando o controle remoto da sua vida e não fosse você. A parte mais cruel disso é que você até quer mudar, mas não consegue manter o foco, não consegue manter o ritmo e começa a se culpar. Mas a culpa não é sua. O sistema inteiro foi feito para te manter distraído, para te manter cansado, para te fazer sentir que você precisa de mais, quando na verdade você só precisa de direção. Acredite, nós sabemos bem o que é isso. Esse lugar que você está hoje, nós já estivemos. Se sentir travado, sobrecarregado, perdido, é mais comum do que parece. Até grandes nomes de sucesso enfrentam esse tipo de problema, mas isso só muda de verdade quando você entende que a sua vida não muda com motivação, mas com método. Não é sobre tentar mais uma vez, é sobre fazer diferente. É sobre ter um plano, uma sequência, uma nova forma de viver. E foi aí que nasceu o código da abundância. O código é um guia, mas não um guia qualquer. Isso não é um planner e não é um PDF para ficar salvo no drive. É um ritual, um sistema para te tirar do modo automático e te forçar a viver a vida que você tanto busca, com conteúdo direto, objetivo e desafios práticos por 45 dias. A cada dia, uma missão. A cada missão, uma nova versão de você surge. A verdade é que os maiores nomes do mercado, grandes empresários, investidores, mentores, eles não têm um talento sobrenatural. Eles têm sistemas, métodos simples, mas consistentes. E a grande maioria deles seguem alguma rotina que você vai encontrar dentro do código. Pode prestar atenção? Eles acordam com propósito e sabem dizer a palavra não, com facilidade e clareza. Eles fazem o que precisa ser feito, mesmo sem vontade, e protegem a própria energia como se fosse o bem mais valioso. Isso não é coincidência, é comportamento condicionado e é chamado de mentalidade lapidada. E tudo isso começa por uma coisa só, um sistema que funcione. O que o Código da Abundância faz é te entregar essa estrutura, um passo a passo que transforma a rotina comum em rotina de gente imparável. E agora, pela primeira vez, essa metodologia, que já movimenta resultados reais nos bastidores de quem você admira, tá nas suas mãos. E você tem dois caminhos a partir daqui. Fechar essa página e continuar rolando o feed ou aceitar que chegou a hora de fazer diferente, porque no fundo você sabe, se continuar esperando o momento certo, vai esperar para sempre. O código da abundância está pronto, o conteúdo, os desafios, os bônus, tudo. E a decisão agora é só sua. Clique no botão abaixo, desbloqueie o código e comece os próximos 45 dias mais transformadores da sua vida. Porque no fundo você sabe que não precisa de mais promessas, somente de uma escolha firme. E ela tá bem aqui na sua frente. Ninguém vê. Mas você sente: A cobrança por resultados que nunca chegam. A comparação contante com quem tá vencendo. A frustração de tentar mudar... e não conseguir manter. O vazio mesmo depois de uma conquista. O medo de passar a vida inteira sem viver a própria verdade. A angústia de continuar sendo apenas mais um. VEJA O QUE DIZEM OS ALUNOS - Depoimento 1: Cara, eu já acompanhava o conteúdo lá no Instagram há mó tempão e curtia demais, mas sabe quando você sente que falta aquele algo a mais? Tipo, eu tava procurando por algo, só não sabia por onde começar Aí eu vi o Código da Abundância e resolvi testar. Na moral, mudou MUITO! Eu achava que eu era enrolado mesmo, mas na verdade só faltava um guia claro. Agora minha rotina tá top, tô produtivo pra caramba e, pela primeira vez, vejo meus projetos andando de verdade Melhor coisa que eu fiz, irmão. Depoimento 2: Brother, sério Antes eu era o rei do cartão estourado, gastava tudo sem nem pensar Aí entrei no desafio dos 45 dias e parece que virei outra pessoa, parei de gastar com besteira, to guardando uma grana todo mês e hoje até sobra To me sentindo o próprio primo rico agora KKKKKK. Depoimento 3: Vou ser sincera com você, eu não estava botando fé no desafio, eu comprei porque o seu conteúdo no Insta é MUITO BOM Comecei o código da abundância meio desacreditada, mas nossa, aprendi técnicas que me fizeram dar uma segurada na ansiedade e nas crises de estresse Hoje em dia eu tô bem mais tranquila, não perco a cabeça fácil e, sério, nem lembro mais da última vez que tive uma crise. Outro nível de paz. Depoimento 4: Claro irmão Sabe aquele rolê de procrastinação pesado que eu tinha? Pois é, morreu. Depois do código da abundância parece que destravei a minha mente To mais focado, organizo melhor minhas coisas e já não fico mais adiando tudo igual antes. Até minha mulher perguntou o que rolou comigo hahaha Finalmente botei ordem na cabeça, você é fera. Depoimento 5: Você lembra que eu vivia meio perdida, sem propósito, meio deprê? Cara, que mudança esses últimos 45 dias! Entrei no seu desafio do Código da Abundância e hoje eu posso dizer que minha cabeça mudou, sabe? Sinto que finalmente tô melhor em todos os sentidos Tenho mais clareza, mais controle mental... um dos melhores investimentos que fiz este ano, com toda certeza!! Aproveitando o gancho, sabe aquele produto dos segredos sujos do multimilionários? BIZARRO! Aquilo explodiu a minha mente, parece que tudo aquilo tava bem na nossa cara e a gente não enxergava, recomendo demais."
-}
 </script>
-	</body>
-</html>
 
-<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-09 22:47:09 -->
-```
+</body>
+</html>
